@@ -6,7 +6,7 @@
       "name": "verite",
       "dependencies": {
         "@neondatabase/serverless": "^1.0.2",
-        "@prisma/adapter-neon": "5.22.0",
+        "@prisma/adapter-neon": "5.15.0",
         "@radix-ui/react-dialog": "^1.1.15",
         "@radix-ui/react-dropdown-menu": "^2.1.16",
         "@radix-ui/react-slot": "^1.2.4",
@@ -23,7 +23,7 @@
         "zod": "^4.3.6",
       },
       "devDependencies": {
-        "@prisma/client": "^5.15.0",
+        "@prisma/client": "5.15.0",
         "@tailwindcss/postcss": "^4",
         "@types/node": "^20",
         "@types/react": "^19",
@@ -32,7 +32,7 @@
         "bufferutil": "^4.1.0",
         "eslint": "^9",
         "eslint-config-next": "16.1.6",
-        "prisma": "^5.15.0",
+        "prisma": "5.15.0",
         "tailwindcss": "^4",
         "tsx": "^4.21.0",
         "typescript": "^5",
@@ -258,21 +258,21 @@
 
     "@nolyfill/is-core-module": ["@nolyfill/is-core-module@1.0.39", "", {}, "sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA=="],
 
-    "@prisma/adapter-neon": ["@prisma/adapter-neon@5.22.0", "", { "dependencies": { "@prisma/driver-adapter-utils": "5.22.0", "postgres-array": "3.0.2" }, "peerDependencies": { "@neondatabase/serverless": "^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0" } }, "sha512-yslwDPykmkVfrlyK3T9idewFcjINnqbkHZYJRxetoOZZSjBlJqqhsZxpJ/dEedUzeWaeDlWOgSEKjQKI46/A9w=="],
+    "@prisma/adapter-neon": ["@prisma/adapter-neon@5.15.0", "", { "dependencies": { "@prisma/driver-adapter-utils": "5.15.0", "postgres-array": "3.0.2" }, "peerDependencies": { "@neondatabase/serverless": "^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0" } }, "sha512-PR80tPo2ixPo/UvofKTSsnmQajNQTJBwDeQOd/AWALZ49Qqq4zi+llclWIQsK7fdhXzr08BGKjK7KCblesMFhA=="],
 
-    "@prisma/client": ["@prisma/client@5.22.0", "", { "peerDependencies": { "prisma": "*" }, "optionalPeers": ["prisma"] }, "sha512-M0SVXfyHnQREBKxCgyo7sffrKttwE6R8PMq330MIUF0pTwjUhLbW84pFDlf06B27XyCR++VtjugEnIHdr07SVA=="],
+    "@prisma/client": ["@prisma/client@5.15.0", "", { "peerDependencies": { "prisma": "*" }, "optionalPeers": ["prisma"] }, "sha512-wPTeTjbd2Q0abOeffN7zCDCbkp9C9cF+e9HPiI64lmpehyq2TepgXE+sY7FXr7Rhbb21prLMnhXX27/E11V09w=="],
 
-    "@prisma/debug": ["@prisma/debug@5.22.0", "", {}, "sha512-AUt44v3YJeggO2ZU5BkXI7M4hu9BF2zzH2iF2V5pyXT/lRTyWiElZ7It+bRH1EshoMRxHgpYg4VB6rCM+mG5jQ=="],
+    "@prisma/debug": ["@prisma/debug@5.15.0", "", {}, "sha512-QpEAOjieLPc/4sMny/WrWqtpIAmBYsgqwWlWwIctqZO0AbhQ9QcT6x2Ut3ojbDo/pFRCCA1Z1+xm2MUy7fAkZA=="],
 
-    "@prisma/driver-adapter-utils": ["@prisma/driver-adapter-utils@5.22.0", "", { "dependencies": { "@prisma/debug": "5.22.0" } }, "sha512-Y8msGZl9unmVflXoqdxTejv99UD02Gp4VoIvkyw+YxNUIj7nRz35O7yf5D87qNmTiPMGCS1WjUucG9ZuNq8+tw=="],
+    "@prisma/driver-adapter-utils": ["@prisma/driver-adapter-utils@5.15.0", "", { "dependencies": { "@prisma/debug": "5.15.0" } }, "sha512-p4jxptZE3p5WCdfE+dvHTNvrtlqPllAMkbAnR9BGr48nBwl15QDMDjZdvbubgO9VH30Nc5XWHINx0dyI+RlxSw=="],
 
-    "@prisma/engines": ["@prisma/engines@5.22.0", "", { "dependencies": { "@prisma/debug": "5.22.0", "@prisma/engines-version": "5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2", "@prisma/fetch-engine": "5.22.0", "@prisma/get-platform": "5.22.0" } }, "sha512-UNjfslWhAt06kVL3CjkuYpHAWSO6L4kDCVPegV6itt7nD1kSJavd3vhgAEhjglLJJKEdJ7oIqDJ+yHk6qO8gPA=="],
+    "@prisma/engines": ["@prisma/engines@5.15.0", "", { "dependencies": { "@prisma/debug": "5.15.0", "@prisma/engines-version": "5.15.0-29.12e25d8d06f6ea5a0252864dd9a03b1bb51f3022", "@prisma/fetch-engine": "5.15.0", "@prisma/get-platform": "5.15.0" } }, "sha512-hXL5Sn9hh/ZpRKWiyPA5GbvF3laqBHKt6Vo70hYqqOhh5e0ZXDzHcdmxNvOefEFeqxra2DMz2hNbFoPvqrVe1w=="],
 
-    "@prisma/engines-version": ["@prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2", "", {}, "sha512-2PTmxFR2yHW/eB3uqWtcgRcgAbG1rwG9ZriSvQw+nnb7c4uCr3RAcGMb6/zfE88SKlC1Nj2ziUvc96Z379mHgQ=="],
+    "@prisma/engines-version": ["@prisma/engines-version@5.15.0-29.12e25d8d06f6ea5a0252864dd9a03b1bb51f3022", "", {}, "sha512-3BEgZ41Qb4oWHz9kZNofToRvNeS4LZYaT9pienR1gWkjhky6t6K1NyeWNBkqSj2llgraUNbgMOCQPY4f7Qp5wA=="],
 
-    "@prisma/fetch-engine": ["@prisma/fetch-engine@5.22.0", "", { "dependencies": { "@prisma/debug": "5.22.0", "@prisma/engines-version": "5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2", "@prisma/get-platform": "5.22.0" } }, "sha512-bkrD/Mc2fSvkQBV5EpoFcZ87AvOgDxbG99488a5cexp5Ccny+UM6MAe/UFkUC0wLYD9+9befNOqGiIJhhq+HbA=="],
+    "@prisma/fetch-engine": ["@prisma/fetch-engine@5.15.0", "", { "dependencies": { "@prisma/debug": "5.15.0", "@prisma/engines-version": "5.15.0-29.12e25d8d06f6ea5a0252864dd9a03b1bb51f3022", "@prisma/get-platform": "5.15.0" } }, "sha512-z6AY5yyXxc20Klj7wwnfGP0iIUkVKzybqapT02zLYR/nf9ynaeN8bq73WRmi1TkLYn+DJ5Qy+JGu7hBf1pE78A=="],
 
-    "@prisma/get-platform": ["@prisma/get-platform@5.22.0", "", { "dependencies": { "@prisma/debug": "5.22.0" } }, "sha512-pHhpQdr1UPFpt+zFfnPazhulaZYCUqeIcPpJViYoq9R+D/yw4fjE+CtnsnKzPYm0ddUbeXUzjGVGIRVgPDCk4Q=="],
+    "@prisma/get-platform": ["@prisma/get-platform@5.15.0", "", { "dependencies": { "@prisma/debug": "5.15.0" } }, "sha512-1GULDkW4+/VQb73vihxCBSc4Chc2x88MA+O40tcZFjmBzG4/fF44PaXFxUqKSFltxU9L9GIMLhh0Gfkk/pUbtg=="],
 
     "@radix-ui/primitive": ["@radix-ui/primitive@1.1.3", "", {}, "sha512-JTF99U/6XIjCBo0wqkU5sK10glYe27MRRsfwoiq5zzOEZLHU3A3KCMa5X/azekYRCJ0HlwI0crAXS/5dEHTzDg=="],
 
@@ -888,7 +888,7 @@
 
     "prelude-ls": ["prelude-ls@1.2.1", "", {}, "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="],
 
-    "prisma": ["prisma@5.22.0", "", { "dependencies": { "@prisma/engines": "5.22.0" }, "optionalDependencies": { "fsevents": "2.3.3" }, "bin": { "prisma": "build/index.js" } }, "sha512-vtpjW3XuYCSnMsNVBjLMNkTj6OZbudcPPTPYHqX0CJfpcdWciI1dM8uHETwmDxxiqEwCIE6WvXucWUetJgfu/A=="],
+    "prisma": ["prisma@5.15.0", "", { "dependencies": { "@prisma/engines": "5.15.0" }, "bin": { "prisma": "build/index.js" } }, "sha512-JA81ACQSCi3a7NUOgonOIkdx8PAVkO+HbUOxmd00Yb8DgIIEpr2V9+Qe/j6MLxIgWtE/OtVQ54rVjfYRbZsCfw=="],
 
     "prop-types": ["prop-types@15.8.1", "", { "dependencies": { "loose-envify": "^1.4.0", "object-assign": "^4.1.1", "react-is": "^16.13.1" } }, "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="],
 
